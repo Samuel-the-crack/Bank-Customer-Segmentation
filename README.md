@@ -19,4 +19,16 @@ from the boxplot above I separate the data into to cluster, avg_balance and high
 
 The second clustering was the use of K-Means clustering algorithm based on "balance", "age", "duration" for each cluster in first clustering, and this is the result of the second clustering.
 <p align='center'>
-<img src = "https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/Cluster.JPG" width = '500'>
+<img src = "https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/Cluster.JPG" width = '700'>
+ 
+After knowing the main cluster, the last clustering level was clustering it again based on it's 'job', 'marital', and 'education'. The result of the segment that has the highest balance can bee seen in the table below (high balanced data).
+<p align='center'>
+<img src = 'https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/Groupby%20high%20balance.JPG' width = '600'>
+  
+And for the average balance data can be seen also at the table below.
+<p align='center'>
+<img src = 'https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/groupby%20avg%20balance.JPG' width = '600'>
+
+from two table above we can conclude that both of them were in their early thirty, single, have tertiary level education, and work in management field. with that information digital marketing team can calculate the best service for them. 
+  
+**For complete code you can se it [here](https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/FinalProject_Samuel.ipynb)**
