@@ -13,4 +13,10 @@ To increase the flow of money in this bank, the digital marketer team want to kn
 ## B. Overview 
 In this model I'm using three-level clustering. First clustering was separate the balane's outliers and non outliers, this analysis was helped with boxplot diagram.
 <p align='center'>
-<img src = "https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/boxplot.JPG" width = '100'>
+<img src = "https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/boxplot.JPG" width = '400'>
+
+from the boxplot above I separate the data into to cluster, avg_balance and high_balance. 
+
+The second clustering was the use of K-Means clustering algorithm based on "balance", "age", "duration" for each cluster in first clustering, and this is the result of the second clustering.
+<p align='center'>
+<img src = "https://github.com/Samuel-the-crack/Bank-Customer-Segmentation/blob/main/Picture/Cluster.JPG" width = '500'>
